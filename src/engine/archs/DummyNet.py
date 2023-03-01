@@ -3,7 +3,6 @@ import torch
 import torch.nn as nn 
 import torch.nn.functional as F
 
-# AENet_C,S,G is based on ResNet-18
 class DummyNet(nn.Module):
     def __init__(self, input_dim, hidden_dim, output_dim, num_layers):
         super(DummyNet, self).__init__()
@@ -21,3 +20,4 @@ class DummyNet(nn.Module):
 
     def forward(self, x):
         return self.main(x)
+        
