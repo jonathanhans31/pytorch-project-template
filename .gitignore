@@ -1,0 +1,7 @@
+*checkpoints*
+dataset
+experiments
+*wandb*
+__pycache__
+*pth
+*tar.gz

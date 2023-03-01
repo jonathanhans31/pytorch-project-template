@@ -1,0 +1,5 @@
+PROJECT: /workspace/project/
+ENGINE: /workspace/project/src/engine/
+EXP: /workspace/project/experiments/
+CONFIG: /workspace/project/configs/
+DB: /workspace/project/dataset/

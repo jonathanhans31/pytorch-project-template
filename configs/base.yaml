@@ -1,0 +1,24 @@
+exp_name: DummyExperiment
+run_name: SomeRandomRunName
+run_note: ""
+
+random_seed: 100
+
+model_dir: models/
+sample_dir: sample/
+log_dir: log/
+
+train_params:
+    num_epochs: 100
+    batch_size: 8
+    lr: 0.0001
+
+model_params:
+    input_dim: 32
+    hidden_dim: 64
+    output_dim: 1
+
+    num_layers: 4
+
+loader_params:
+    num_data: 1024
